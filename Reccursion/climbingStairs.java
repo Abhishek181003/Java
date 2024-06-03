@@ -10,6 +10,5 @@ class climbingStairs {
        System.out.println("Enter the stairs : ");
        int n = sc.nextInt();
        System.out.println("The number of ways of stari path is "+stairPath(n));
-        
     }
 }
