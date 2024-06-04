@@ -8,8 +8,8 @@ class subSet {
           return;
       }
       char currChar = string.charAt(i);
-      printSubset(i+1,string,ans+currChar);
-      printSubset(i+1,string,ans);
+      printSubset(i+1,string,ans+currChar); // WE ARE HERE ADDING THE CHARACTER
+      printSubset(i+1,string,ans); // WE ARE HERE NOT ADDING THE CHARACTER
    }
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
