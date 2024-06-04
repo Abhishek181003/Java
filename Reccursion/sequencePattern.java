@@ -21,5 +21,6 @@ class sequencePattern {
         int k = sc.nextInt();
         System.out.println("The increasing Sequence of length K is : ");
         sequence(1,n,k,"");
+        
     }
 }
