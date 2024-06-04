@@ -18,5 +18,6 @@ class Pattern {
        System.out.println();
        pip(4);
        System.out.println();
+       
     }
 }
