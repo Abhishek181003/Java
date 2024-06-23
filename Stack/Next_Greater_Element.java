@@ -1,6 +1,6 @@
 import java.util.*;
 class HelloWorld {
-    public static int[] nseBackward(int a[]){
+    public static int[] ngeBackward(int a[]){
         // This is backward approach
         int res[] = new int[a.length];
         Stack <Integer> st = new Stack<>();
@@ -15,7 +15,7 @@ class HelloWorld {
         }
         return res;
     }
-    public static int[] nse(int a[]){
+    public static int[] nge(int a[]){
         // This is forward approach
         int res[] = new int[a.length];
         Stack <Integer> st = new Stack<>();
@@ -37,7 +37,7 @@ class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Code for Next Greater Element :");
         int a[] = {2,7,4,3,5};
-        int b[] = nseBackward(a);
+        int b[] = ngeBackward(a);
         for(int i:a){
             System.out.print(i+" ");
         }
